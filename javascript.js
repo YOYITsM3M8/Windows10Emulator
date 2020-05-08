@@ -34,6 +34,9 @@ popup("Welcome to Windows CB","Welcome to Windows ChromeBook. Click the 'x' butt
 icon("2048","2048",function() {
 	popup("2048","<embed src='games/2048/index.html'>");
 });
+icon("folder","My Stuff",function() {
+	popup("File Explorer","file explorer");
+});
 icon("2048","Platformer",function() {
 	popup("Platformer",'<object width="480" height="360" data="games/PaintPlatformer.swf">whoops</object>');
 });
