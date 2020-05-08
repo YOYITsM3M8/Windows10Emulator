@@ -35,7 +35,7 @@ icon("2048","2048",function() {
 	popup("2048","<embed src='games/2048/index.html'>");
 });
 icon("folder","My Stuff",function() {
-	popup("<img src='https://winaero.com/blog/wp-content/uploads/2016/05/build-10158.png' width='50' height='50'>File Explorer","file explorer");
+	popup("<img src='https://winaero.com/blog/wp-content/uploads/2016/05/build-10158.png' width='20' height='20'> <span class='app-title'>File Explorer</span>","file explorer");
 });
 icon("2048","Platformer",function() {
 	popup("Platformer",'<object width="480" height="360" data="games/PaintPlatformer.swf">whoops</object>');
